@@ -5,7 +5,7 @@ create index idx_cnty_cutmr on sales(country,customername);
 select distinct(customername)
 from SALES
 where country='USA';
-/-----Performance result------/
+/*-----Performance result------*/
 explain plan for select distinct(customername)
 from SALES
 where country='USA';
