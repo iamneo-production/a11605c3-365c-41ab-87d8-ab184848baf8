@@ -2,9 +2,10 @@ create index idx_cnty_cutmr on sales(country,customername);
 
 
 /*1)----Total customer list who ordered from USA----*/
-select distinct(customername)
+select customername
 from SALES
-where country='USA';
+where country='USA'
+group by customername;
 /*-----Performance result------*/
 explain plan for select distinct(customername)
 from SALES
