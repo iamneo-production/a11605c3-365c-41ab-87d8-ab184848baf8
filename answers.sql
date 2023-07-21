@@ -1,4 +1,4 @@
-select * from sales;
+select country from sales;
 
 
 ---------first question---------
