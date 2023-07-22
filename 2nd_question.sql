@@ -1,4 +1,4 @@
 /* second question*/
-select count(CUSTOMERNAME) from SALES
+select distinct(count(CUSTOMERNAME)) from SALES
 where SALES>5000;
 
