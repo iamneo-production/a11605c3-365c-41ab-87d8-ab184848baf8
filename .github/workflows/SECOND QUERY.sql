@@ -1,2 +1,2 @@
-select count(customername) from sales
-where sales>5000;
+SELECT COUNT(CUSTOMERNAME) FROM SALES
+WHERE SALES>5000;
