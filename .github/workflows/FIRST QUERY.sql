@@ -1,3 +1,3 @@
-select DISTINCT(customername)
+select distinct(customername)
 from sales
-where country = 'USA';
+where country='USA';
