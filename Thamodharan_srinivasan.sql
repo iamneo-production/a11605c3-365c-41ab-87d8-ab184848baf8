@@ -1,4 +1,6 @@
 ----sales history--------
+
+---------------------------
 select country from sales;
 select * from user_indexes where table_name='sales';
 
