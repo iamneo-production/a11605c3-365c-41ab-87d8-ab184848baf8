@@ -14,7 +14,7 @@ create index idx_year on sales(year_id,productcode,sales);
 select count(distinct(productcode)) from sales where year_id = 2003;
 
 -- fourth question
-create index
+
 select sum(SALES) from sales where YEAR_ID = 2005;
 
 -- fifth question
