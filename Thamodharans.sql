@@ -1,7 +1,7 @@
 
 --1.Write a sql query to find the total customers list who are all ordered from the USA?
 
-create index ind_1 on sales(country);
+create index one on sales(country);
 select distinct(customername)
 from sales
 where country='USA';
@@ -17,7 +17,7 @@ where sales>5000;
 
 --3.Write a sql query to find how many products are ordered in the year 2003?
 
-create index ind_2 on sales(year_id);
+create index two on sales(year_id);
 select count(distinct productcode) as totalproducts
 from sales
 where year_id=2003;
