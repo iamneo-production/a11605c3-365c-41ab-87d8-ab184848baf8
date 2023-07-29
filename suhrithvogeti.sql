@@ -1,20 +1,20 @@
 desc sales;
 
 -- first question
-
+create index idx_cnty on sales(country,customername);
 select distinct(CUSTOMERNAME) from sales where country = 'USA';
 
 -- second question
-
+create index idx_sales on sales(sales,customername);
 select count(distinct(CUSTOMERNAME)) from sales where sales > 5000;
 
 
 -- third question
-
+create index idx_year on sales(year_id,productcode,sales);
 select count(distinct(productcode)) from sales where year_id = 2003;
 
 -- fourth question
-
+create index
 select sum(SALES) from sales where YEAR_ID = 2005;
 
 -- fifth question
