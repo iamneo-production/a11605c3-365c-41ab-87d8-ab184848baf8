@@ -19,5 +19,4 @@ WHERE year_id = 2005;
 /*5th question*/
 SELECT year_id AS sales_year, SUM(SALES) AS total_sales_price
 FROM sales
-GROUP BY YEAR_ID
-ORDER BY sales_year;
+GROUP BY YEAR_ID;
