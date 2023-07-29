@@ -16,8 +16,7 @@ group by customer name;
 
 select count(distinct customername) as totalcustomers
 from sales
-where sales>5000
-group by customer name;
+where sales>5000;
 
 
 --3.Write a sql query to find how many products are ordered in the year 2003?
