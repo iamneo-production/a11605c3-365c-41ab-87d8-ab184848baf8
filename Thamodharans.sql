@@ -7,8 +7,7 @@ select * from user_indexes where table_name='sales';*/
 create index ind_1 on sales(country);
 select distinct(customername)
 from sales
-where country='USA'
-group by customer name;
+where country='USA';
 
 
 
