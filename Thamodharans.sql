@@ -2,11 +2,7 @@
 
 --1.Write a sql query to find the total customers list who are all ordered from the USA?
 
-<<<<<<< HEAD
-create index idx_one on sales (country);
-=======
 create index idx_one on sales(country);
->>>>>>> 9c3624e83cb3a72456abbbf78fc3408e4433141e
 
 select distinct(customername)
 from sales
@@ -26,11 +22,7 @@ where sales>5000;
 
 --3.Write a sql query to find how many products are ordered in the year 2003?
 
-<<<<<<< HEAD
 CREATE INDEX idx_three ON SALES (YEAR_ID, PRODUCTCODE);
-=======
-create index idx_three on sales(year_id,productcode);
->>>>>>> 9c3624e83cb3a72456abbbf78fc3408e4433141e
 
 select count(distinct productcode) as totalproducts
 from sales
