@@ -7,7 +7,7 @@ where country='USA'
 group by customername;
 
 --2) Count the customers who have made purchases exceeding 5000
-create index idx_sales on sales(sales,CUSTOMERNAME);
+create index idx_sales on sales(sales);
 select count(*) as sales_above_5000 from (select customername
 from sales
 where sales>5000
