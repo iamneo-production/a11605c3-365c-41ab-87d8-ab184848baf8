@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>iamneo-production_a11605c3-365c-41ab-87d8-ab184848baf8</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+	<filteredResources>
+		<filter>
+<<<<<<< HEAD
+			<id>1688976547757</id>
+=======
+<<<<<<< HEAD
+			<id>1688042338257</id>
+=======
+<<<<<<< HEAD
+			<id>1689246569386</id>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+			<id>1688189202522</id>
+=======
+			<id>1689851328746</id>
+>>>>>>> b33d8a387f71ac2b6190eff8da738c3854f8b051
+=======
+			<id>1688189202522</id>
+>>>>>>> Oracle-Workspace-harsha529
+>>>>>>> 241e9edfc3e6188cac182b7f94ff37588d8c93ad
+>>>>>>> 598b3bf5704f48f786d5f525f7d67f8d9671c769
+>>>>>>> dde123d5961f99d916d9fcf941c50dcdfc152523
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>node_modules|.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>
