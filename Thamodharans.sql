@@ -38,7 +38,7 @@ where year_id=2005;
 
 
 
-5.Write a sql query to find the total sale price each year?
+--5.Write a sql query to find the total sale price each year?
 
 select year_id as year,sum(sales) as totalsalesprice
 from sales
