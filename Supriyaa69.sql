@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-select * from sales;
+
    
 --1).Query to find total list of customers ordered from USA
 
@@ -23,7 +23,7 @@ select sum(sales) as total_sale_price from sales where year_id=2005;
 
 select year_id,sum(sales) as total_sales from sales
 group by year_id
-order by year_id;
+order by year_id ASC;
 =======
 --/*1st question*/
 select DISTINCT(customername) from sales
