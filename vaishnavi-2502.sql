@@ -17,5 +17,4 @@ where YEAR_ID=2005;
 
 --5th Q - total sale price each year
 select YEAR_ID as Year, sum(sales) as TotalSalePrice from sales
-group by year_id
-order by year_id;
+group by year_id;
