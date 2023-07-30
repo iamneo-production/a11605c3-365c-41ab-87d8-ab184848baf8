@@ -2,12 +2,11 @@ select * from sales;
    
 --1).Query to find total list of customers ordered from USA
 
-select distinct(customername) from sales 
-where country='USA';
+select distinct(customername) from sales where country='USA';
 
 --2).Query to count the number of customers who have made purchases exceeding 5000
 
-select count(distinct(customername)) as total_customers from sales 
+select count(distinct(customername)) as total_customer from sales 
 where sales>5000;
 
 --3).Query to find how many products are ordered in the year 2003
