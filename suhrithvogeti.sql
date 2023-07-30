@@ -1,5 +1,6 @@
 desc sales;
 
+
 -- first question
 create index idx_cnty on sales(country,customername);
 select distinct(CUSTOMERNAME) from sales where country = 'USA';

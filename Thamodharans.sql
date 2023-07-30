@@ -40,3 +40,6 @@ where year_id=2005;
 select year_id as year,sum(sales) as totalsalesprice
 from sales
 group by year_id;
+
+
+
