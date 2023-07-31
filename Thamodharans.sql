@@ -1,4 +1,4 @@
-----SALES----
+---SALES---
 
 --1.Write a sql query to find the total customers list who are all ordered from the USA?
 
